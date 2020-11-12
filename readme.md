@@ -64,6 +64,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
 
+<img src="images/breakdownschets1.png" alt="De homepagina van Asos">
+
+<img src="images/breakdownschets2.png" alt="De homepagina van Asos">
+
 
 
 ## Intake (week 1)
