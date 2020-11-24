@@ -1,0 +1,43 @@
+.main-header {
+    display: block;
+    background-color: #2D2D2D;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+nav{
+    width: 100%
+}
+
+.iconen-bar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.DH-bar{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.korting{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+h1{
+    background-color: none;
+
+}
+
+#kortingtekst{
+    background-color: #FDFDCD;
+}
+
+
+
