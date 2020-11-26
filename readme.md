@@ -47,6 +47,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 <img src="images/ssvoorgesteldeitems.jpg" alt="voorgestelde items">
 <img src="images/ssmerken.jpg" alt="links naar merken">
 <img src="images/ssfooter.jpg" alt="De footer tot nu toe">
+<img src="images/breakdownschets2.png" alt="De homepagina van Asos">
 
 Helaas heb ik nog weinig echte voortgang kunnen maken. Im vind dit zelf ook erg zonde en ga na het voortgangsgesprek ook zeker de achterstand inhalen die ik heb gemaakt.
 
