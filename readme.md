@@ -55,11 +55,10 @@ Helaas heb ik nog weinig echte voortgang kunnen maken. Im vind dit zelf ook erg 
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
+| Ruben     | Marijn         | Kathleen   | Jordi       |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+|Hoe zorg ik ervoor dat het responsive is en niet weg van elkaar glijdt. | uitlijningen en afbeeldingen         | Het uitlijnen van foto's  | Het bespreken van een slider.   |
+
 
 ### Verslag van meeting
 
