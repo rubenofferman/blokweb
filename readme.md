@@ -43,7 +43,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-<img src="images/ssheader.jpg" alt="De header tot nu toe">
+<img src="images/ssheading.jpg" alt="De header tot nu toe">
 <img src="images/ssvoorgesteldeitems.jpg" alt="voorgestelde items">
 <img src="images/ssmerken.jpg" alt="links naar merken">
 <img src="images/ssfooter.jpg" alt="De footer tot nu toe">
