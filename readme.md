@@ -38,11 +38,18 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+- Voor mij was de afgelopen week erg zwaar, met school en prive. Hierdoor heb ik helaas nog niet veel sprongen kunnen maken met mijn webpagina.
+- Wel is wat ik heb gedaan goed gelukt en heeft de uitleg van anderen zeker bijgedragen.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+<img src="images/ssheader.jpg" alt="De header tot nu toe">
+<img src="images/ssvoorgesteldeitems.jpg" alt="voorgestelde items">
+<img src="images/ssmerken.jpg" alt="links naar merken">
+<img src="images/ssfooter.jpg" alt="De footer tot nu toe">
+
+Helaas heb ik nog weinig echte voortgang kunnen maken. Im vind dit zelf ook erg zonde en ga na het voortgangsgesprek ook zeker de achterstand inhalen die ik heb gemaakt.
+
 
 ### Agenda voor meeting
 
@@ -75,7 +82,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je startniveau:** Mijn niveau voor nu is BLAUW
 
-**Je focus:** Ik ga voor nu mijn focus leggen op de surface plane leggen voor mijn website.
+**Je focus:** Ik ga voor nu mijn focus leggen op de responsiveness leggen voor mijn website.
 
 **Je opdracht:** https://www.asos.com/nl/heren/
 
