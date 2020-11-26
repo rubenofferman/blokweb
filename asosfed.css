@@ -1,10 +1,12 @@
+
+/* CSS MAIN HEADER */
+
 .main-header {
     display: block;
     background-color: #2D2D2D;
     width: 100%;
     color: white;
     text-decoration: none;
-
 
 }
 
@@ -27,6 +29,7 @@ nav{
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-color: black;
 
 }
 
@@ -35,9 +38,19 @@ h1{
 
 }
 
-#kortingtekst{
+#kortingtekst h1, #kortingtekst h2 {
     background-color: #FDFDCD;
+    color: black;
+    display: inline-block;
+    margin: .5em;
 }
 
+/* EIND CSS MAIN HEADER */
+
+
+img{
+    width: 300px;
+    height: auto;
+}
 
 
