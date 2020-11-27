@@ -1,4 +1,8 @@
 
+body{
+    font-family: futura-pt, sans-serif;
+}
+
 /* CSS MAIN HEADER */
 
 .main-header {
@@ -17,6 +21,13 @@ nav{
 .iconen-bar{
     display: flex;
     justify-content: space-around;
+}
+
+#kledingzoeken{
+    width: 50em;
+    height: 30px;
+    border-radius: 20px;
+    color: gray;
 }
 
 .DH-bar{
@@ -43,6 +54,7 @@ h1{
     color: black;
     display: inline-block;
     margin: .5em;
+
 }
 
 /* EIND CSS MAIN HEADER */
