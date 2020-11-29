@@ -1,7 +1,17 @@
-
-body{
-    font-family: futura-pt, sans-serif;
+body {
+    font-family: Futura, sans-serif;
 }
+
+a:link{
+    text-decoration: none;
+
+
+}
+
+a:hover{
+    color: black;
+}
+
 
 /* CSS MAIN HEADER */
 
@@ -12,57 +22,104 @@ body{
     color: white;
     text-decoration: none;
 
+
 }
 
-nav{
+nav {
     width: 100%
 }
 
-.iconen-bar{
+.iconen-bar {
     display: flex;
     justify-content: space-around;
 }
 
-#kledingzoeken{
-    width: 50em;
+
+
+.DH-bar {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#kledingzoeken {
+    width: 100%;
     height: 30px;
     border-radius: 20px;
     color: gray;
 }
 
-.DH-bar{
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.korting{
+.korting {
     display: flex;
     flex-direction: column;
     text-align: center;
     background-color: black;
+    margin-top: 10px;
+
 
 }
 
-h1{
+h1 {
     background-color: none;
 
 }
 
-#kortingtekst h1, #kortingtekst h2 {
+#kortingtekst h1,
+#kortingtekst h2 {
     background-color: #FDFDCD;
     color: black;
     display: inline-block;
     margin: .5em;
 
+
 }
 
 /* EIND CSS MAIN HEADER */
 
+.ultiemeedit {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 15px;
 
-img{
-    width: 300px;
-    height: auto;
+}
+
+.ultiemeedit a {
+    color: black;
+    background-color: pink;
+    width: 150px;
+    padding: 16px;
+
+
+
+
+
+
+
+}
+
+#vi-titel {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.voorgesteldeitems {
+
+
+}
+
+.voorgesteldeitems p {
+    text-align: center;
+
+}
+
+.voorgesteldeitems a {
+    text-align: center;
 }
 
 
+img {
+    width: 250px;
+    height: auto;
+}
