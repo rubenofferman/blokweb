@@ -35,11 +35,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-<img src="images/ssheading.jpg" alt="De header tot nu toe">
-<img src="images/ssvoorgesteldeitems.jpg" alt="voorgestelde items">
-<img src="images/ssmerken.jpg" alt="links naar merken">
-<img src="images/ssfooter.jpg" alt="De footer tot nu toe">
-
+-
 
 
 ### Agenda voor meeting
@@ -50,6 +46,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 | ---            | ---                | ---          | ---              |
 |Hoe positioneer ik de SVGs in mijn header | Uitlijnen van elementen, positioneren.        | Hoe breng ik SVGs op maat?  | Het bespreken van een slider.   |
 
+### Verslag van meeting
+
+-
 
 
 ## Voortgang 1 (week 3)
