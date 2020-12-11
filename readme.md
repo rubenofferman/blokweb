@@ -30,7 +30,25 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+- Voor mij was de afgelopen week erg zwaar, met school en prive. Hierdoor heb ik helaas nog niet veel sprongen kunnen maken met mijn webpagina.
+- Hetgene wat mij wel is gelukt heeft voor mijn gevoel wel goed gewerkt en ben ik toch een beetje verder gekomen. Mede dankzij de hulp van de student assistent en mede studenten <3
+
+**Screenshot(s):**
+
+<img src="images/ssheading.jpg" alt="De header tot nu toe">
+<img src="images/ssvoorgesteldeitems.jpg" alt="voorgestelde items">
+<img src="images/ssmerken.jpg" alt="links naar merken">
+<img src="images/ssfooter.jpg" alt="De footer tot nu toe">
+
+
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+| Ruben     | Marijn         | Kathleen   | Jordi       |
+| ---            | ---                | ---          | ---              |
+|Hoe positioneer ik de SVGs in mijn header | Uitlijnen van elementen, positioneren.        | Hoe breng ik SVGs op maat?  | Het bespreken van een slider.   |
 
 
 
@@ -38,7 +56,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
-- Voor mij was de afgelopen week erg zwaar, met school en prive. Hierdoor heb ik helaas nog niet veel sprongen kunnen maken met mijn webpagina.
+- Ik heb wel moeite met het goed aan de opdracht werken. Ik ben zelf namelijk niet goed in het coderen en vind het dan ook lastig om door te gaan als het niet lukt
 - Wel is wat ik heb gedaan goed gelukt en heeft de uitleg van anderen zeker bijgedragen.
 
 **Screenshot(s):**
@@ -63,7 +81,9 @@ Helaas heb ik nog weinig echte voortgang kunnen maken. Im vind dit zelf ook erg 
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+- Gebruik maken van SVG's als iconen erg handige tip!
+- alvast voor zorgen dat de fotos mee scalen als je de pagina uitzoomd geeft een goede look aan de webpagina
+- Gebruik maken van grids! is niet moeilijk maar kan wel een verschil maken in de layout van je pagina
 
 
 
