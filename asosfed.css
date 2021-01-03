@@ -34,9 +34,43 @@ ul{
 
 }
 
-.logo svg{
+.iconenbar{
+    display: flex;
+    align-items: center;
+}
+
+.menulogo{
+    display: flex;
+    margin: 0;
+    padding: 0;
 
 }
+
+
+/*bron button stylen: https://stackoverflow.com/questions/2460100/remove-the-complete-styling-of-an-html-button-submit*/
+
+.menulogo button{
+    margin: 1em;
+    margin-top: 21.5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.overigeiconen{
+    display: flex;
+    margin-left: auto;
+    width: 13em;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.overigeiconen svg{
+    width: 22px;
+}
+
+
 
 
 
@@ -50,7 +84,25 @@ nav {
     display: flex;
     justify-content: space-around;
 
+
 }
+
+.DH-bar a{
+    color: white;
+    border: 1px solid;
+    border-color: gainsboro;
+    padding: 1em;
+    padding-left: 8em;
+    padding-right: 8em;
+    transition: 0.5s;
+}
+
+.DH-bar a:hover{
+    color: black;
+    background-color: gainsboro;
+
+}
+
 
 #kledingzoeken {
     width: 98%;
@@ -60,13 +112,11 @@ nav {
 }
 
 .korting {
-    position: absolute;
-    top: 9em;
     display: flex;
     flex-direction: column;
     text-align: center;
     background-color: black;
-    margin-top: 10px;
+    margin-top: 17em;
     width: 100%
 
 
@@ -87,10 +137,37 @@ h1 {
 
 }
 
+/*hamburgermenu*/
+
+.hamburgermenu{
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    background-color: #ffffff;
+    width: 20em;
+    transition: 0.5s;
+
+}
+
+.hamburgermenu:active{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 20em;
+}
+
+.hamburgermenu img{
+    padding: 16px 0px 0px 16px;
+}
+
+/* eind hamburgermenu */
+
+
 /* EIND CSS MAIN HEADER */
 
 .ultiemeedit {
-    margin-top: 20em;
+    margin-top: 24em;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -128,13 +205,25 @@ h1 {
     grid-template-columns: 1fr;
     text-align: center;
     margin-left: auto; margin-right: auto;
+    padding: 0;
 
+}
+
+.voorgesteldeitems img{
+    width: 400px;
+    margin-top: 2em;
 }
 
 @media(min-width: 40em){
     .voorgesteldeitems ul{
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 40em){
+    .voorgesteldeitems img{
+        width: 320px;
     }
 }
 
@@ -145,6 +234,11 @@ h1 {
     }
 }
 
+@media(min-width: 70em){
+    .voorgesteldeitems img{
+        width: 280px;
+    }
+}
 
 
 
@@ -153,15 +247,13 @@ h1 {
 #vi-titel {
 }
 
-.voorgesteldeitems img {
-    margin-top: 2em;
-}
 
 .voorgesteldeitems p {
 
 }
 
 .voorgesteldeitems a {
+    color: black;
 
 
 }
@@ -177,7 +269,7 @@ h1 {
     width: 150px;
     padding: 12px;
     margin: auto;
-    margin-bottom: 16px;
+    margin-bottom: 1em;
     border: 2px solid;
     transition: .5s;
 
@@ -199,33 +291,41 @@ h1 {
     margin-bottom: 2em;
 }
 
-.laatstearticles p{
+.wantit h2:first-of-type{
+    margin-top: 1em
+
+}
+
+.wantit p{
     text-align: center;
 }
 
-.nikesectie{
+.wantit {
+    text-align: center;
+}
+
+.wantit img{
+    width: 18em;
+    margin-top: 2em;
+}
+
+
+.wantit a{
     display: flex;
-    flex-flow: column;
-    text-align: center;
-    margin-left: auto; margin-right: auto;
-}
-
-.nikesectie a{
-       display: flex;
     text-align: center;
     flex-direction: column;
     color: black;
+    border: 2px solid;
     border-color: rgb(0, 0, 0);
     background: rgb(255, 255, 255);
     width: 150px;
     padding: 12px;
     margin: auto;
     margin-bottom: 16px;
-    border: 2px solid;
     transition: .5s;
 }
 
-.nikesectie a:hover{
+.wantit a:hover{
     color: white;
     background-color: black;
     transition: 0.5s;
@@ -234,17 +334,43 @@ h1 {
 }
 
 .grotemerken{
-    display: flex;
+    align-items: center;
+    margin-top: 3.5em
 }
 
 .grotemerken h2{
-
     font-size:20px;
+    text-align: center;
+
+}
+
+.grotemerken ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-left: auto; margin-right: auto;
+    padding: 0;
+}
+
+@media(min-width: 40em){
+    .grotemerken ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media(min-width: 70em){
+    .grotemerken ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
 }
 
 
+
+
 img {
-    width: 250px;
+    width: 200px;
     height: auto;
 }
 

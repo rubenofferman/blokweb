@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>ASOS</title>
     <link rel="stylesheet" href="asosfed.css">
+    <script src="asosfed.js"></script>
 
 </head>
 
@@ -12,22 +13,75 @@
 
     <!--HEADER VOOR DE HOMEPAGINA -->
 
+    <!-- Bronnen heading:
+    hamburger menu: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+    -->
+
     <header class="main-header">
-        <div class="logo">
+        <nav class="iconenbar">
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="81" height="52" viewBox="0 0 81 52"><text transform="translate(0 42)" fill="#fff" font-size="40" font-family="Futura-Medium, Futura" font-weight="500">
-                    <tspan x="0" y="0">asos</tspan>
-                </text></svg>
+            <ul class="menulogo">
+                <li>
+                    <button class="hamburger">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="18" viewBox="0 0 27 18">
+                            <path d="M4.5,27h27V24H4.5Zm0-7.5h27v-3H4.5ZM4.5,9v3h27V9Z" transform="translate(-4.5 -9)" fill="#fff" />
+                        </svg>
+                    </button>
 
-           <svg xmlns="http://www.w3.org/2000/svg" width="28.725" height="28.452" viewBox="0 0 28.725 28.452"><g transform="translate(-17.997 -17.996)"><path d="M46.721,43.562l-6.38-6.319a12.11,12.11,0,0,0-2.095-16.37,12.4,12.4,0,0,0-16.645.693,12.105,12.105,0,0,0-.7,16.486,12.391,12.391,0,0,0,16.527,2.075l6.378,6.321ZM30.311,38.321a8.127,8.127,0,1,1,8.205-8.127A8.166,8.166,0,0,1,30.311,38.321Z" transform="translate(0)" fill="#fff"/></g></svg>
+                </li>
 
-           <svg xmlns="http://www.w3.org/2000/svg" width="38.209" height="34.156" viewBox="0 0 38.209 34.156"><path d="M0,31.656s5.843-8.889,15.989-9.483,17.452,9.483,17.452,9.483ZM8.315,8.75a8.75,8.75,0,1,1,8.751,8.75A8.75,8.75,0,0,1,8.315,8.75Z" transform="translate(2.317 1.25)" fill="#2d2d2d" stroke="#fff" stroke-width="2.5"/></svg>
+                <li> <svg xmlns="http://www.w3.org/2000/svg" width="81" height="52" viewBox="0 0 81 52"><text transform="translate(0 42)" fill="#fff" font-size="40" font-family="Futura-Medium, Futura" font-weight="500">
+                            <tspan x="0" y="0">asos</tspan>
+                    </text></svg>
+                </li>
+            </ul>
 
-           <svg xmlns="http://www.w3.org/2000/svg" width="30.498" height="28.125" viewBox="0 0 30.498 28.125"><path d="M25.662,3.938h-.073a8.432,8.432,0,0,0-6.965,3.656,8.432,8.432,0,0,0-6.965-3.656h-.073a8.121,8.121,0,0,0-8.211,7.945,16.674,16.674,0,0,0,3.5,9.33C11.293,27,18.624,32.063,18.624,32.063S25.955,27,30.368,21.213a16.674,16.674,0,0,0,3.5-9.33A8.121,8.121,0,0,0,25.662,3.938Zm3.05,16.116a55.226,55.226,0,0,1-10.088,9.534A55.306,55.306,0,0,1,8.536,20.046a14.779,14.779,0,0,1-3.108-8.163,5.827,5.827,0,0,1,1.8-4.2A6.324,6.324,0,0,1,11.6,5.913h.066a6.349,6.349,0,0,1,5.242,2.763,2.108,2.108,0,0,0,3.446,0A6.349,6.349,0,0,1,25.6,5.913h.066a6.338,6.338,0,0,1,4.369,1.765,5.81,5.81,0,0,1,1.8,4.2A14.967,14.967,0,0,1,28.712,20.053Z" transform="translate(-3.375 -3.938)" fill="#fff"/></svg>
+            <ul class="overigeiconen">
+                <li> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="28.725" height="28.452" viewBox="0 0 28.725 28.452">
+                            <g transform="translate(-17.997 -17.996)">
+                                <path d="M46.721,43.562l-6.38-6.319a12.11,12.11,0,0,0-2.095-16.37,12.4,12.4,0,0,0-16.645.693,12.105,12.105,0,0,0-.7,16.486,12.391,12.391,0,0,0,16.527,2.075l6.378,6.321ZM30.311,38.321a8.127,8.127,0,1,1,8.205-8.127A8.166,8.166,0,0,1,30.311,38.321Z" transform="translate(0)" fill="#fff" />
+                            </g>
+                        </svg></a></li>
 
-           <svg xmlns="http://www.w3.org/2000/svg" width="30.707" height="28.666" viewBox="0 0 30.707 28.666"><g transform="translate(-4.625 -2.375)"><path d="M5.625,9.529V30.041H34.332V9.529Zm6.524,0s0-6.154,7.829-6.154,7.829,6.154,7.829,6.154" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></g></svg>
+                <li> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="38.209" height="34.156" viewBox="0 0 38.209 34.156">
+                            <path d="M0,31.656s5.843-8.889,15.989-9.483,17.452,9.483,17.452,9.483ZM8.315,8.75a8.75,8.75,0,1,1,8.751,8.75A8.75,8.75,0,0,1,8.315,8.75Z" transform="translate(2.317 1.25)" fill="#2d2d2d" stroke="#fff" stroke-width="2.5" />
+                        </svg></a>
+                </li>
 
+                <li> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30.498" height="28.125" viewBox="0 0 30.498 28.125">
+                            <path d="M25.662,3.938h-.073a8.432,8.432,0,0,0-6.965,3.656,8.432,8.432,0,0,0-6.965-3.656h-.073a8.121,8.121,0,0,0-8.211,7.945,16.674,16.674,0,0,0,3.5,9.33C11.293,27,18.624,32.063,18.624,32.063S25.955,27,30.368,21.213a16.674,16.674,0,0,0,3.5-9.33A8.121,8.121,0,0,0,25.662,3.938Zm3.05,16.116a55.226,55.226,0,0,1-10.088,9.534A55.306,55.306,0,0,1,8.536,20.046a14.779,14.779,0,0,1-3.108-8.163,5.827,5.827,0,0,1,1.8-4.2A6.324,6.324,0,0,1,11.6,5.913h.066a6.349,6.349,0,0,1,5.242,2.763,2.108,2.108,0,0,0,3.446,0A6.349,6.349,0,0,1,25.6,5.913h.066a6.338,6.338,0,0,1,4.369,1.765,5.81,5.81,0,0,1,1.8,4.2A14.967,14.967,0,0,1,28.712,20.053Z" transform="translate(-3.375 -3.938)" fill="#fff" />
+                        </svg> </a>
+                </li>
+
+                <li>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30.707" height="28.666" viewBox="0 0 30.707 28.666">
+                            <g transform="translate(-4.625 -2.375)">
+                                <path d="M5.625,9.529V30.041H34.332V9.529Zm6.524,0s0-6.154,7.829-6.154,7.829,6.154,7.829,6.154" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </g>
+                        </svg></a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- HAMBURGER MENU -->
+        <div class="hamburgermenu">
+            <a href="#"><img src="basiswebsite/images/startpaginaasos.png" alt="startpagina van asos"></a>
+            <a href="#"><img src="basiswebsite/images/saleasos.png" alt=""></a>
+            <a href="#"><img src="basiswebsite/images/schoenenasos.png" alt=""></a>
+            <a href="#"><img src="basiswebsite/images/nieuwasos.png" alt=""></a>
+            <a href="#"><img src="basiswebsite/images/kledingasos.png" alt=""></a>
+            <a href="#"><img src="basiswebsite/images/schoenenasos.png" alt=""></a>
+            <a href="#"><img src="basiswebsite/images/accesoiresasos.png" alt=""></a>
+            <a href="#"><img src="basiswebsite/images/nutrendyasos.png" alt=""></a>
+            <a href="#"><img src="basiswebsite/images/sportkledingasos.png" alt=""></a>
+            <a href="#"><img src="basiswebsite/images/face=bodyasos.png" alt=""></a>
+            <a href="#"><img src="basiswebsite/images/merkenasos.png" alt=""></a>
+            <a href="#"><img src="basiswebsite/images/outletasos.png" alt=""></a>
+            <a href="#"><img src="basiswebsite/images/marketplaceasos.png" alt=""></a>
         </div>
+
+
+        <!-- EINDE HAMBURGER MENU -->
 
         <nav>
             <ul class="DH-bar">
@@ -63,28 +117,32 @@
             <h1>Voorgestelde items!</h1>
             <ul>
 
-                <li> <img src="https://content.asos-media.com/-/media/homepages/mw/2020/11/09/1781528_gy1_1__nathanhopkinson_2615_kl_870x1110.jpg" alt="Jassen en jacks model">
+                <li> <a href="#"><img src="https://content.asos-media.com/-/media/homepages/mw/2020/11/09/1781528_gy1_1__nathanhopkinson_2615_kl_870x1110.jpg" alt="Jassen en jacks model">
 
-                    <p>JASSEN &amp; JACKS</p>
+                        <p>JASSEN &amp; JACKS</p>
 
-                    <a href="">Hou de kou buiten</a>
+                        <p>Hou de kou buiten</p>
+                    </a>
                 </li>
 
-                <li> <img src="https://content.asos-media.com/-/media/homepages/mw/2020/11/09/1800007_gr1_1__harrisonvidamo_3015_kl_870x1110.jpg" alt="Gebreide items model">
+                <li> <a href="#"><img src="https://content.asos-media.com/-/media/homepages/mw/2020/11/09/1800007_gr1_1__harrisonvidamo_3015_kl_870x1110.jpg" alt="Gebreide items model">
 
-                    <p>GEBREIDE ITEMS</p>
+                        <p>GEBREIDE ITEMS</p>
 
-                    <a href="">De warming up</a>
+                        <p>De warming up</p>
+                    </a>
                 </li>
 
-                <li><img src="https://content.asos-media.com/-/media/homepages/mw/2020/11/09/1826886_be1_1__harrisonvidamo_0014_kl_870x1110.jpg" alt="Print selecties model">
-                    <p>PRINT SELECTIES</p>
-                    <a href="">Style Z characters</a>
+                <li> <a href="#"><img src="https://content.asos-media.com/-/media/homepages/mw/2020/11/09/1826886_be1_1__harrisonvidamo_0014_kl_870x1110.jpg" alt="Print selecties model">
+                        <p>PRINT SELECTIES</p>
+                        <p>Style Z characters</p>
+                    </a>
                 </li>
 
-                <li> <img src="https://content.asos-media.com/-/media/homepages/mw/2020/11/09/1764510_gy1_1__harrisonvidamo_0303_kl_870x1110.jpg" alt="Denim tijd model">
-                    <p>DENIM TIJD</p>
-                    <a href="">Geüpdatet klassiekers</a>
+                <li> <a href="#"><img src="https://content.asos-media.com/-/media/homepages/mw/2020/11/09/1764510_gy1_1__harrisonvidamo_0303_kl_870x1110.jpg" alt="Denim tijd model">
+                        <p>DENIM TIJD</p>
+                        <p>Geüpdatet klassiekers</p>
+                    </a>
 
                 </li>
             </ul>
@@ -99,24 +157,20 @@
         </section>
 
         <section>
-            <article class="laatstearticles">
+            <article class="wantit">
                 <h2>Sneakers van grote merken</h2>
-                <img src="#" alt="">
+                <img src="basiswebsite/images/vervangendeafbeelding1.png" alt="">
                 <p>Legendarische namen</p>
                 <a href="">Nu shoppen</a>
             </article>
         </section>
 
-        <section class="nikesectie">
-            <ul>
-                <li> <img src="https://content.asos-media.com/-/media/homepages/mw/2020/11/09/1781528_gy1_1__nathanhopkinson_2615_kl_870x1110.jpg" alt="">
-                    <h1>NIKE</h1>
-                    <p>Alle vakjes aangevinkt</p>
-                    <a href="">SHOP HET MERK</a>
-
-                </li>
-            </ul>
-        </section>
+        <article class="wantit">
+            <img src=basiswebsite/images/vervangendeafbeelding2.png alt="">
+            <h2>NIKE</h2>
+            <p>Alle vakjes aangevinkt</p>
+            <a href="#">SHOP HET MERK</a>
+        </article>
 
         <section class="grotemerken">
             <article>
@@ -147,5 +201,7 @@
         </section>
     </footer>
 
+<script src="asosfed.js"></script>
+</body>
 
-</body></html>
+</html>
