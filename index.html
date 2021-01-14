@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <title>ASOS</title>
     <link rel="stylesheet" href="asosfed.css">
-    <script src="asosfed.js"></script>
 
 </head>
 
@@ -15,6 +14,8 @@
 
     <!-- Bronnen heading:
     hamburger menu: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+
+    https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0
     -->
 
     <header class="main-header">
@@ -32,7 +33,7 @@
 
                 <li> <svg xmlns="http://www.w3.org/2000/svg" width="81" height="52" viewBox="0 0 81 52"><text transform="translate(0 42)" fill="#fff" font-size="40" font-family="Futura-Medium, Futura" font-weight="500">
                             <tspan x="0" y="0">asos</tspan>
-                    </text></svg>
+                        </text></svg>
                 </li>
             </ul>
 
@@ -64,7 +65,7 @@
         </nav>
 
         <!-- HAMBURGER MENU -->
-        <div class="hamburgermenu">
+        <div class="subNav">
             <a href="#"><img src="basiswebsite/images/startpaginaasos.png" alt="startpagina van asos"></a>
             <a href="#"><img src="basiswebsite/images/saleasos.png" alt=""></a>
             <a href="#"><img src="basiswebsite/images/schoenenasos.png" alt=""></a>
@@ -99,7 +100,7 @@
     <main>
         <section class="korting">
             <div id="kortingtekst">
-                <h1>15% extra korting op de sale *</h1>
+                <h2>15% extra korting op de sale *</h2>
                 <h2>(al tot 70% afgeprijsd!)</h2>
                 <h2>Met code: SAVEMORE</h2>
             </div>
@@ -114,7 +115,7 @@
         </section>
 
         <section class="voorgesteldeitems">
-            <h1>Voorgestelde items!</h1>
+            <h2>Voorgestelde items!</h2>
             <ul>
 
                 <li> <a href="#"><img src="https://content.asos-media.com/-/media/homepages/mw/2020/11/09/1781528_gy1_1__nathanhopkinson_2615_kl_870x1110.jpg" alt="Jassen en jacks model">
@@ -156,21 +157,21 @@
             </article>
         </section>
 
-        <section>
+        <section class="test">
+           <h2>Want it now!</h2>
             <article class="wantit">
-                <h2>Sneakers van grote merken</h2>
                 <img src="basiswebsite/images/vervangendeafbeelding1.png" alt="">
-                <p>Legendarische namen</p>
+                <p>Favorieten van de editors</p>
                 <a href="">Nu shoppen</a>
+            </article>
+
+            <article class="wantit">
+                <img src=basiswebsite/images/vervangendeafbeelding2.png alt="">
+                <p>Alles wat de winter haat</p>
+                <a href="#">SHOP HET MERK</a>
             </article>
         </section>
 
-        <article class="wantit">
-            <img src=basiswebsite/images/vervangendeafbeelding2.png alt="">
-            <h2>NIKE</h2>
-            <p>Alle vakjes aangevinkt</p>
-            <a href="#">SHOP HET MERK</a>
-        </article>
 
         <section class="grotemerken">
             <article>
@@ -197,11 +198,12 @@
         <section class="footeralgemeen">
             <h3>© 2020 ASOS</h3>
             <h3>Privacy &amp; cookies</h3>
+            <h3>&#124;</h3>
             <h3>Algemene voorwaarden</h3>
         </section>
     </footer>
 
-<script src="asosfed.js"></script>
+    <script src="asosfed.js"></script>
 </body>
 
 </html>

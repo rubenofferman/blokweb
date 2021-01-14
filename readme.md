@@ -6,17 +6,46 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1.    hamburger menu: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+
+2.
+https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0
+
+3.
+https://css-tricks.com/snippets/css/complete-guide-grid/
+
+4.
+bron: https://www.youtube.com/watch?v=VF5kD6QEEag
+
+5.
+button stylen: https://stackoverflow.com/questions/2460100/remove-the-complete-styling-of-an-html-button-submit
+
+6.
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_select
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+- dit ging goed:
+
+Wat goed ging in de laatste week is dat problemen waar ik eerst net uit kon komen toch nog gelukt zijn om op te lossen zoals het hamburger menu laten werken.
+Het was ook erg fijn om samen te werken met medestudenten.
+Dit heeft mij erg geholpen, niet alleen met coderen maar ook met de motivatie.
+Het deels responsive maken van de pagina.
+
+- dit ging lastig:
+
+Wat lastig ging qua coderen was het laten werken van het hamburger menu samen met de button erbij.
+Het feit dat het de laatste weken waren en er 4 andere grote deadlines vast stonden hielp ook niet echt bij de voortgang.
+
 
 **Screenshot(s):**
+
+- - <img src="images/voortgang4header.png alt="voortgang header tweede pagina 4">
+- <img src="images/voortgang4hamburger.png alt="voortgang hamburger4">
+- <img src="images/voortgang4body.png alt="voortgang body 4">
+- <img src="images/voortgang4footer.png alt="voortgang footer 4">
 
 -screenshot(s) van je eindresultaat-
 
@@ -24,18 +53,34 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+- Dit ging goed:
 
+Deze week maakte ik sprongen met het stylen van de pagina.
+Het gebruik maken van SVG's als iconen in de header en het begin van een responsive design.
+
+- Dit ging lastig:
+
+Het proberen toe te voegen van javascript lukte niet helemaal. Het toevoegen van het hamburger menu lukte ook niet omdat hij niet tevoorschijn kwam. Na meerdere keren het toch te proberen is het uiteindelijk wel gelukt.
+
+
+**Screenshot(s):**
+
+- <img src="images/voortgang3header.png alt="voortgang header 3">
+- <img src="images/voortgang3body.png alt="voortgang body 3">
+- <img src="images/voortgang3body1.png alt="voortgang body 3">
 
 
 ## Voortgang 2 (week 5)
 
-- Voor mij was de afgelopen week erg zwaar, met school en prive. Hierdoor heb ik helaas nog niet veel sprongen kunnen maken met mijn webpagina.
+- Voor mij was de afgelopen week zwaar, met school en prive. Hierdoor heb ik helaas nog niet veel sprongen kunnen maken met mijn webpagina.
 - Hetgene wat mij wel is gelukt heeft voor mijn gevoel wel goed gewerkt en ben ik toch een beetje verder gekomen. Mede dankzij de hulp van de student assistent en mede studenten <3
 
 **Screenshot(s):**
 
--
+- <img src="images/voortgang2header.png alt="voortgang header 2">
+- <img src="images/voortgang2body.png alt="voortgang body 2">
+- <img src="images/voortgang2footer.png alt="voortgang footer 2">
+
 
 
 ### Agenda voor meeting
