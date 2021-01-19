@@ -175,7 +175,7 @@ nav {
 /* EIND CSS MAIN HEADER */
 
 .ultiemeedit {
-   margin-top: 1em;
+   margin-top: em;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -301,10 +301,6 @@ nav {
 
 
 
-.wantit {
-    text-align: center;
-}
-
 
 
 .test h2:first-of-type{
@@ -317,12 +313,20 @@ nav {
     text-align: center;
 }
 
+.wantit {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 2.5em;
+    padding-left: 4em;
+    padding-right: 4em;
 
-.wantit img{
-    width: 18em;
-    margin-top: 2em;
 }
 
+.wantit img {
+    width: 100%
+}
 
 .wantit a{
     display: flex;
