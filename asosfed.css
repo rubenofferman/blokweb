@@ -1,5 +1,5 @@
 body {
-    font-family: Futura, sans-serif;
+    font-family: Futura, Futura pt, sans-serif;
     margin: 0;
 }
 
@@ -99,8 +99,6 @@ nav {
     justify-content: space-around;
     justify-content: center;
     padding: 0;
-
-
 }
 
 .DH-bar a{
@@ -111,6 +109,7 @@ nav {
     padding-left: 6.5em;
     padding-right: 6.5em;
     transition: 0.5s;
+
 }
 
 .DH-bar a:hover{
@@ -252,13 +251,10 @@ nav {
 
 
 
-#vi-titel {
-}
 
 
-.voorgesteldeitems p {
 
-}
+
 
 .voorgesteldeitems a {
     color: black;
@@ -433,3 +429,141 @@ img {
 .footeralgemeen h3:nth-of-type(4){
     margin-right: 1em;
 }
+
+
+/*----------------CSS TWEEDE PAGINA------------------*/
+
+.productinfo{
+    margin-top: 7.6em;
+
+}
+
+.productinfo h2 {
+
+    font-weight: 100;
+
+
+}
+
+.productinfo ul{
+    padding: 1em;
+    padding-top: 0;
+
+}
+
+.productinfo p {
+    font-family: futura pt;
+    font-weight:
+}
+
+.productinfo b {
+    font-weight: 500;
+    letter-spacing: 0.125em;
+}
+
+.productinfo li:nth-of-type(2){
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 0;
+
+
+}
+
+.productinfo li:nth-of-type(3) {
+    font-family: futura pt;
+    text-decoration: underline;
+    font-size: 0.8em;
+    color: gray;
+
+
+}
+
+.productinfo li:nth-of-type(4) {
+    margin-top: 1.8em;
+    margin-bottom: 1.8em;
+}
+
+
+.productinfo img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.productinfo select{
+    width: 94%;
+    height: 3em;
+    border-color: gainsboro;
+    font-family: futura pt;
+    font-size: 1em;
+
+}
+
+.productinfo button{
+    margin-top: 1.5em;
+    padding: 1em;
+    width: 80%;
+    text-align: center;
+    background: #018849;
+    color: white;
+    letter-spacing: 0.125em;
+    border: none;
+    cursor: pointer;
+
+}
+
+.dvjmol h2{
+    margin-top: 3.5em;
+    margin-left: 1em;
+    font-weight: 300;
+    font-size: 1.2em
+
+}
+
+.dvjmol ul{
+    display: flex;
+    overflow-x: auto;
+    padding: 0;
+}
+
+.dvjmol li{
+    padding: 1.5em;
+}
+
+.dvjmol img{
+}
+
+.dvjmol a{
+    color: black;
+    text-decoration: none;
+}
+
+@media(min-width: 40em){
+    .productinfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 40em){
+    .dvjmol li{
+        padding: 1em;
+    }
+
+}
+
+@media(min-width: 70em){
+    .dvjmol li{
+        padding: 3em;
+    }
+
+}
+
+
+
+
+
