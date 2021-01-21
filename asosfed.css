@@ -503,9 +503,6 @@ img {
 
 }
 
-.productinfo p {
-    font-family: futura pt;
-}
 
 .productinfo b {
     font-weight: 500;
@@ -549,7 +546,6 @@ img {
     width: 94%;
     height: 3em;
     border-color: gainsboro;
-    font-family: futura pt;
     font-size: 1em;
 
 }
@@ -595,6 +591,7 @@ img {
     .productinfo {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-top: 10em;
     }
 }
 
